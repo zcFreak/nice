@@ -11,6 +11,7 @@ class Index extends CI_Controller
 
     function index()
     {
+        echo 'no';
         $this->index->index();
     }
 }
