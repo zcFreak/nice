@@ -20,6 +20,6 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		redirect('http://www.zcfreak.cn/Admin/Index/index');
+		header('location:http://www.zcfreak.cn/Admin/Index/index');
 	}
 }
