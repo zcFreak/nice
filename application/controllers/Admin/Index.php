@@ -3,7 +3,7 @@
 class Index extends CI_Controller
 {
 
-    public function __construct()
+    function __construct()
     {
         parent::__construct();
         $this->load->model('Admin/Index_model', "index");
@@ -11,6 +11,7 @@ class Index extends CI_Controller
 
     function index()
     {
+        echo 'no';
         $this->index->index();
     }
 }
