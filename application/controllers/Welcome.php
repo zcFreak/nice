@@ -20,6 +20,6 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('http://www.zcfreak.cn/Admin/Index/index');
+		redirect('http://www.zcfreak.cn/Admin/Index/index');
 	}
 }
